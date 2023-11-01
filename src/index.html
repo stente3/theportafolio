@@ -1,0 +1,233 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.svg" />
+
+    <title>Camilo Fuentes Morales | Developer</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hola, mi nombre es 
+          <span class="text-color-main">Camilo</span>
+          <br />
+          Soy Desarrollador Front-end.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Conoce más</a>
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">Sobre mí</h2>
+        <div class="about-wrapper">
+          <!-- <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div> -->
+          <div class="col-md-6 col-sm-12 mx-auto">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text text-center">
+                Soy desarrollador web con una pasión por la innovación tecnológica y el impacto positivo en la calidad de vida de las personas. 
+He trabajado en proyectos propios que me han permitido adquirir experiencia en el desarrollo de software escalable, seguro y flexible. Mi enfoque se ha centrado en la utilización de tecnologías eficientes y en la creación de integraciones óptimas. 
+Me mantengo en constante aprendizaje para mantenerme actualizado en las últimas tendencias y tecnologías del mercado.
+              </p>
+              <!-- <p class="about-wrapper__info-text">
+                Extra Information about you! like hobbies and your goals.
+              </p> -->
+              <span class="d-flex mt-3 mx-auto">
+                  <!-- ! Necesitas colocar en resume -->
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Fetch API Countries</h3>
+                <div>
+                  <p class="mb-4">
+                    Este sitio web te permite explorar diferentes países alrededor del mundo. Utilizando una API, puedes acceder fácilmente a información sobre cada país, incluyendo su población, ciudad capital y lengua oficial.                    
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://fetch-countries.netlify.app/">
+                  Ver en vivo
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/stente3/Fetch-api-countries">
+                  Código Fuente
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://fetch-countries.netlify.app/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img alt="Project Image" class="img-fluid" src="assets/primero.png" height="400"/>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Sunnyside landing page</h3>
+                <div>
+                  <p class="mb-4">
+                    Esta es una página de de agencia que se adapta perfectamente a cualquier dispositivo. Su diseño receptivo garantiza una experiencia de usuario impecable en ordenadores, tabletas y teléfonos móviles. Con contenido atractivo, navegación intuitiva y un diseño adaptable.
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://frontend-sunnyside-agency.netlify.app/">
+                  Ver en vivo
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/stente3/Sunnyside-agency">
+                  Código Fuente
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://frontend-sunnyside-agency.netlify.app/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img alt="Project Image" class="img-fluid" src="assets/segundo.png" height="400"/>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Advice generator app</h3>
+                <div>
+                  <p class="mb-4">
+                    Es una aplicación versátil y adaptable que ofrece consejos para una amplia gama de situaciones. Esta aplicación, accesible desde cualquier dispositivo, se conecta a una API para proporcionar consejos en inglés sobre una variedad de temas. Su interfaz intuitiva facilita la navegación y garantiza que los usuarios puedan acceder rápidamente a la sabiduría que necesitan
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://advice-ge.netlify.app/">
+                  Ver en vivo
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/stente3/Advice-Generator">
+                  Código Fuente
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://advice-ge.netlify.app/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img alt="Project Image" class="img-fluid" src="assets/tercero.png" height="400" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/camilo-fuentes-m/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/stente3" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
